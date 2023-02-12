@@ -1,7 +1,7 @@
 import SwiftUI
 
 @main
-struct MPGApp: App {
+struct MetalSPMApp: App {
     init() {
         Task { @MainActor in
             NSApp.setActivationPolicy(.regular)
